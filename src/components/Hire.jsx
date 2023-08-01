@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export default function Hire() {
   return (
-    <div className="flex md:flex-row flex-col-reverse justify-between items-center w-10/12 mx-auto my-20">
+    <div className="flex md:flex-row flex-col-reverse justify-between items-center w-8/12 md:w-10/12 mx-auto my-20">
       <motion.div
         className="flex flex-col items-start md:w-[45%]"
         whileInView={{ opacity: 1, x: 0 }}

@@ -21,7 +21,7 @@ export default function Companies() {
       </h3>
       <div className="flex flex-col gap-8">
         <motion.div
-          className="flex md:w-10/12 w-full mx-auto md:justify-evenly justify-between"
+          className="flex w-10/12 mx-auto md:justify-evenly justify-between"
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -50 }}
           viewport={{ once: true }}
@@ -49,7 +49,7 @@ export default function Companies() {
           />
         </motion.div>
         <motion.div
-          className="flex md:w-10/12 w-full mx-auto md:justify-evenly justify-between"
+          className="flex w-10/12 mx-auto md:justify-evenly justify-between"
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: 50 }}
           viewport={{ once: true }}
@@ -77,7 +77,7 @@ export default function Companies() {
           />
         </motion.div>
         <motion.div
-          className="flex md:w-10/12 w-full mx-auto md:justify-evenly justify-between"
+          className="flex w-10/12 mx-auto md:justify-evenly justify-between"
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 0, x: -50 }}
           viewport={{ once: true }}
