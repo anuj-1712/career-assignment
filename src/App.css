@@ -1,0 +1,52 @@
+*,::after,::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.burger-icon{
+  color: #3f86e1;
+  display: none;
+  height: 30px;
+  width: 30px;
+}
+
+.cross-icon{
+  color: white;
+  height: 30px;
+  width: 30px;
+  align-self: flex-start;
+}
+
+.wifi-icon,.tick-icon ,.privacy-icon{
+  height: 70px;
+  width: 70px;
+}
+
+.wifi-icon{
+  color: rgb(82, 194, 238);
+}
+
+.tick-icon{
+  color: darkgreen;
+}
+
+.arrow{
+  height: 30px;
+  width: 30px;
+  color: white;
+  margin: 0 auto;
+}
+
+.profile-icon{
+  height: 50px;
+  width: 50px;
+  color: white;
+}
+
+/* media queries */
+@media screen and (max-width:767px) {
+  .burger-icon{
+    display: block;
+  }
+}
