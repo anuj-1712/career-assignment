@@ -8,7 +8,7 @@ export default function Hire() {
       <motion.div
         className="flex flex-col items-start md:w-[45%]"
         whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: -150 }}
+        initial={{ opacity: 0, x: -50 }}
         viewport={{ once: true }}
         transition={{ type: "spring", duration: 4 }}
       >
@@ -28,7 +28,7 @@ export default function Hire() {
         src={hireImg}
         className="w-full md:w-1/2 min-w-[270px] max-w-[500px] h-[300px]"
         whileInView={{ opacity: 1, x: 0 }}
-        initial={{ opacity: 0, x: 150 }}
+        initial={{ opacity: 0, x: 50 }}
         viewport={{ once: true }}
         transition={{ type: "spring", duration: 4 }}
       />

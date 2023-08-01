@@ -1,6 +1,7 @@
 import React from 'react'
 import animatedImg from "../assets/animated img.png"
 
+
 export default function About() {
   return (
     <div className='flex md:flex-row flex-col gap-6 md:gap-0 justify-between items-center my-12 mx-4'>
